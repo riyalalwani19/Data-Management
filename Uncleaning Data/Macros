@@ -1,0 +1,394 @@
+Sub Macro3()
+'
+' Macro3 Macro
+'
+
+'
+    Range("A2").Select
+    ActiveCell.SpecialCells(xlLastCell).Select
+    ActiveWindow.SmallScroll Down:=6
+    ActiveWindow.ScrollRow = 12340
+    ActiveWindow.ScrollRow = 12200
+    ActiveWindow.ScrollRow = 11781
+    ActiveWindow.ScrollRow = 11548
+    ActiveWindow.ScrollRow = 9965
+    ActiveWindow.ScrollRow = 9243
+    ActiveWindow.ScrollRow = 1
+    ActiveWindow.ScrollRow = 47
+    ActiveWindow.ScrollRow = 187
+    ActiveWindow.ScrollRow = 373
+    ActiveWindow.ScrollRow = 769
+    ActiveWindow.ScrollRow = 955
+    ActiveWindow.ScrollRow = 2630
+    ActiveWindow.ScrollRow = 3096
+    ActiveWindow.ScrollRow = 11498
+    ActiveWindow.ScrollRow = 12568
+    ActiveWindow.ScrollRow = 12662
+    ActiveWindow.ScrollRow = 12149
+    ActiveWindow.ScrollRow = 8263
+    ActiveWindow.ScrollRow = 6913
+    ActiveWindow.ScrollRow = 5749
+    ActiveWindow.ScrollRow = 1
+    Range("A2").Select
+    ActiveCell.SpecialCells(xlLastCell).Select
+    Range("N12706:O12706").Select
+    ActiveWindow.ScrollRow = 12592
+    ActiveWindow.ScrollRow = 12336
+    ActiveWindow.ScrollRow = 11987
+    ActiveWindow.ScrollRow = 11777
+    ActiveWindow.ScrollRow = 11219
+    ActiveWindow.ScrollRow = 10753
+    ActiveWindow.ScrollRow = 8984
+    ActiveWindow.ScrollRow = 2374
+    ActiveWindow.ScrollRow = 1862
+    ActiveWindow.ScrollRow = 1746
+    ActiveWindow.ScrollRow = 1350
+    ActiveWindow.ScrollRow = 1257
+    ActiveWindow.ScrollRow = 862
+    ActiveWindow.ScrollRow = 792
+    ActiveWindow.ScrollRow = 1
+    Range("E2:E5").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Range("F12663").Select
+    ActiveWindow.ScrollRow = 12638
+    ActiveWindow.ScrollRow = 12429
+    ActiveWindow.ScrollRow = 11335
+    ActiveWindow.ScrollRow = 10706
+    ActiveWindow.ScrollRow = 7565
+    ActiveWindow.ScrollRow = 6796
+    ActiveWindow.ScrollRow = 4399
+    ActiveWindow.ScrollRow = 3398
+    ActiveWindow.ScrollRow = 280
+    ActiveWindow.ScrollRow = 117
+    ActiveWindow.ScrollRow = 1
+    Range("G2:G212").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Range("G2:G12712").Select
+    Selection.ClearContents
+    Range("L2").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Range("L2:L12712").Select
+    Selection.ClearContents
+    Range("N2:N5").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Selection.ClearContents
+    ActiveWorkbook.Save
+    Range("G8").Select
+    Columns("F:F").EntireColumn.AutoFit
+    ActiveSheet.Range("$A$1:$N$12712").AutoFilter Field:=5, Criteria1:="Queens"
+    Range("A48:A1600").Select
+    ActiveCell.SpecialCells(xlLastCell).Select
+    Range("C12569").Select
+    ActiveWindow.LargeScroll Down:=-4
+    ActiveWindow.ScrollRow = 11286
+    ActiveWindow.ScrollRow = 11194
+    ActiveWindow.ScrollRow = 11010
+    ActiveWindow.ScrollRow = 10275
+    ActiveWindow.ScrollRow = 9907
+    ActiveWindow.ScrollRow = 8666
+    ActiveWindow.ScrollRow = 7770
+    ActiveWindow.ScrollRow = 6344
+    ActiveWindow.ScrollRow = 5287
+    ActiveWindow.ScrollRow = 92
+    ActiveWindow.ScrollRow = 46
+    ActiveWindow.ScrollRow = 1
+    Range("A48").Select
+    ActiveCell.FormulaR1C1 = "12937"
+    Range("A48").Select
+    Selection.FillDown
+    Range("M79").Select
+    ActiveCell.FormulaR1C1 = "05-31-2019"
+    Range("M79").Select
+    Selection.FillDown
+    Range("M79").Select
+    Selection.Copy
+    Range("M48").Select
+    ActiveSheet.Paste
+    Application.CutCopyMode = False
+    Selection.FillDown
+    Range("Q565").Select
+    ActiveWindow.SmallScroll Down:=-54
+    Range("M198").Select
+    Selection.FillDown
+    Range("M203").Select
+    Selection.FillDown
+    Range("M183").Select
+    Selection.FillDown
+    Range("M12705").Select
+    ActiveWindow.SmallScroll Down:=9
+    ActiveWindow.ScrollRow = 12527
+    ActiveWindow.ScrollRow = 12389
+    ActiveWindow.ScrollRow = 12297
+    ActiveWindow.ScrollRow = 11812
+    ActiveWindow.ScrollRow = 11443
+    ActiveWindow.ScrollRow = 10220
+    ActiveWindow.ScrollRow = 8905
+    ActiveWindow.ScrollRow = 6598
+    ActiveWindow.ScrollRow = 831
+    ActiveWindow.ScrollRow = 716
+    ActiveWindow.ScrollRow = 693
+    ActiveWindow.ScrollRow = 646
+    ActiveWindow.ScrollRow = 600
+    ActiveWindow.ScrollRow = 554
+    ActiveWindow.ScrollRow = 531
+    ActiveWindow.ScrollRow = 508
+    ActiveWindow.ScrollRow = 439
+    ActiveWindow.ScrollRow = 416
+    ActiveWindow.ScrollRow = 370
+    ActiveWindow.ScrollRow = 323
+    ActiveWindow.ScrollRow = 300
+    ActiveWindow.ScrollRow = 254
+    ActiveWindow.ScrollRow = 208
+    ActiveWindow.ScrollRow = 185
+    ActiveWindow.ScrollRow = 162
+    ActiveWindow.ScrollRow = 139
+    ActiveWindow.ScrollRow = 47
+    ActiveWindow.ScrollRow = 1
+    ActiveSheet.Range("$A$1:$N$12712").AutoFilter Field:=5, Criteria1:= _
+        "Manhattan"
+    Range("G3").Select
+    ActiveCell.FormulaR1C1 = "40.7536223"
+    Range("G3").Select
+    Selection.FillDown
+    ActiveWindow.SmallScroll Down:=12
+    Selection.FillDown
+    Range("G3:G4568").Select
+    Range(Selection, ActiveCell.SpecialCells(xlLastCell)).Select
+    Range(Selection, Selection.End(xlToLeft)).Select
+    Range(Selection, Selection.End(xlToLeft)).Select
+    Range(Selection, Selection.End(xlToRight)).Select
+    Range(Selection, Selection.End(xlToLeft)).Select
+    Range("K12698").Select
+    ActiveWindow.ScrollRow = 12583
+    ActiveWindow.ScrollRow = 12397
+    ActiveWindow.ScrollRow = 12187
+    ActiveWindow.ScrollRow = 11954
+    ActiveWindow.ScrollRow = 10906
+    ActiveWindow.ScrollRow = 10253
+    ActiveWindow.ScrollRow = 513
+    ActiveWindow.ScrollRow = 280
+    ActiveWindow.ScrollRow = 1
+    Range("H7").Select
+    ActiveCell.FormulaR1C1 = "-194.975"
+    Selection.FillDown
+    Range("K7058").Select
+    ActiveWindow.SmallScroll Down:=-6
+    ActiveWindow.ScrollRow = 7014
+    ActiveWindow.ScrollRow = 6991
+    ActiveWindow.ScrollRow = 6805
+    ActiveWindow.ScrollRow = 6175
+    ActiveWindow.ScrollRow = 4637
+    ActiveWindow.ScrollRow = 4078
+    ActiveWindow.ScrollRow = 1958
+    ActiveWindow.ScrollRow = 1538
+    ActiveWindow.ScrollRow = 1
+    ActiveWorkbook.Save
+    Range("H7").Select
+    Selection.Copy
+    Range("H3").Select
+    ActiveSheet.Paste
+    Range("H3,H4").Select
+    Range("H4").Activate
+    ActiveSheet.Paste
+    Range("H6").Select
+    ActiveSheet.Paste
+    Range("P4").Select
+    Application.CutCopyMode = False
+    ActiveWorkbook.Save
+    Range("J3").Select
+    ActiveCell.FormulaR1C1 = "=-R[61222]C[1]"
+    Range("J3").Select
+    ActiveCell.FormulaR1C1 = "=-R[61222]C[1]"
+    Range("J3").Select
+    ActiveCell.FormulaR1C1 = "-1234"
+    Range("J3").Select
+    Selection.FillDown
+    Range("J1480").Select
+    ActiveWindow.SmallScroll Down:=3
+    Selection.FillDown
+    Range("J1500").Select
+    Selection.FillDown
+    Range("K4089").Select
+    ActiveWorkbook.Save
+End Sub
+Sub Macro4()
+'
+' Macro4 Macro
+'
+
+'
+    Range("H4066").Select
+    ActiveWindow.SmallScroll Down:=-27
+    ActiveWindow.ScrollRow = 4032
+    ActiveWindow.ScrollRow = 4008
+    ActiveWindow.ScrollRow = 3938
+    ActiveWindow.ScrollRow = 3869
+    ActiveWindow.ScrollRow = 3379
+    ActiveWindow.ScrollRow = 3053
+    ActiveWindow.ScrollRow = 1958
+    ActiveWindow.ScrollRow = 1585
+    ActiveWindow.ScrollRow = 1
+    ActiveSheet.Range("$A$1:$N$12712").AutoFilter Field:=5, Criteria1:="Bronx"
+    ActiveWindow.SmallScroll Down:=-18
+    Columns("N:N").EntireColumn.AutoFit
+    Range("L263").Select
+    Columns("K:K").EntireColumn.AutoFit
+    Range("K173").Select
+    ActiveCell.FormulaR1C1 = "-11"
+    Range("K173").Select
+    Selection.FillDown
+    ActiveWindow.SmallScroll Down:=237
+    Range("M6094").Select
+    ActiveWindow.SmallScroll Down:=-15
+    ActiveWindow.ScrollRow = 5258
+    ActiveWindow.ScrollRow = 4969
+    ActiveWindow.ScrollRow = 4791
+    ActiveWindow.ScrollRow = 4679
+    ActiveWindow.ScrollRow = 4523
+    ActiveWindow.ScrollRow = 4256
+    ActiveWindow.ScrollRow = 3944
+    ActiveWindow.ScrollRow = 3587
+    ActiveWindow.ScrollRow = 3186
+    ActiveWindow.ScrollRow = 2785
+    ActiveWindow.ScrollRow = 2340
+    ActiveWindow.ScrollRow = 1939
+    ActiveWindow.ScrollRow = 1538
+    ActiveWindow.ScrollRow = 1137
+    ActiveWindow.ScrollRow = 780
+    ActiveWindow.ScrollRow = 424
+    ActiveWindow.ScrollRow = 112
+    ActiveWindow.ScrollRow = 1
+    Range("M173").Select
+    Columns("M:M").EntireColumn.AutoFit
+    ActiveCell.FormulaR1C1 = "no"
+    Range("M173").Select
+    Selection.FillDown
+    ActiveCell.FormulaR1C1 = "no"
+    Range("M173").Select
+    Selection.FillDown
+    Range("M11552").Select
+    ActiveWorkbook.Save
+    ActiveWindow.SmallScroll Down:=-18
+    ActiveWindow.ScrollRow = 10494
+    ActiveWindow.ScrollRow = 10316
+    ActiveWindow.ScrollRow = 10271
+    ActiveWindow.ScrollRow = 10093
+    ActiveWindow.ScrollRow = 9959
+    ActiveWindow.ScrollRow = 9803
+    ActiveWindow.ScrollRow = 9625
+    ActiveWindow.ScrollRow = 9514
+    ActiveWindow.ScrollRow = 9113
+    ActiveWindow.ScrollRow = 8756
+    ActiveWindow.ScrollRow = 8311
+    ActiveWindow.ScrollRow = 7709
+    ActiveWindow.ScrollRow = 5949
+    ActiveWindow.ScrollRow = 5013
+    ActiveWindow.ScrollRow = 3342
+    ActiveWindow.ScrollRow = 1805
+    ActiveWindow.ScrollRow = 1449
+    ActiveWindow.ScrollRow = 1003
+    ActiveWindow.ScrollRow = 825
+    ActiveWindow.ScrollRow = 602
+    ActiveWindow.ScrollRow = 446
+    ActiveWindow.ScrollRow = 268
+    ActiveWindow.ScrollRow = 90
+    ActiveWindow.ScrollRow = 1
+    ActiveWindow.SmallScroll Down:=-12
+    Range("A1:N12712").Select
+    Range("G559").Activate
+    Selection.Copy
+    Range("M2").Select
+    Application.CutCopyMode = False
+    ActiveCell.FormulaR1C1 = "10/19/2018"
+    Range("A1:P1").Select
+    ActiveWindow.ScrollRow = 360
+    ActiveWindow.ScrollRow = 3774
+    ActiveWindow.ScrollRow = 6649
+    ActiveWindow.ScrollRow = 12399
+    ActiveWindow.ScrollRow = 41150
+    ActiveWindow.ScrollRow = 43755
+    ActiveWindow.ScrollRow = 44564
+    ActiveWindow.ScrollRow = 46630
+    ActiveWindow.ScrollRow = 47349
+    ActiveWindow.ScrollRow = 48877
+    ActiveWindow.ScrollRow = 47709
+    ActiveWindow.ScrollRow = 28122
+    ActiveWindow.ScrollRow = 23720
+    ActiveWindow.ScrollRow = 19946
+    ActiveWindow.ScrollRow = 3594
+    ActiveWindow.ScrollRow = 1797
+    ActiveWindow.ScrollRow = 1708
+    ActiveWindow.ScrollRow = 1528
+    ActiveWindow.ScrollRow = 1
+    Range("A1:P226").Select
+    ActiveWindow.ScrollRow = 180
+    ActiveWindow.ScrollRow = 1
+    Range("R5").Select
+    ActiveWindow.ScrollRow = 90
+    ActiveWindow.ScrollRow = 899
+    ActiveWindow.ScrollRow = 2606
+    ActiveWindow.ScrollRow = 3235
+    ActiveWindow.ScrollRow = 4313
+    ActiveWindow.ScrollRow = 4852
+    ActiveWindow.ScrollRow = 16532
+    ActiveWindow.ScrollRow = 16712
+    ActiveWindow.ScrollRow = 16802
+    ActiveWindow.ScrollRow = 16891
+    ActiveWindow.ScrollRow = 16981
+    ActiveWindow.ScrollRow = 17251
+    ActiveWindow.ScrollRow = 17341
+    ActiveWindow.ScrollRow = 17610
+    ActiveWindow.ScrollRow = 18059
+    ActiveWindow.ScrollRow = 18239
+    ActiveWindow.ScrollRow = 22103
+    ActiveWindow.ScrollRow = 22192
+    ActiveWindow.ScrollRow = 22552
+    ActiveWindow.ScrollRow = 22642
+    ActiveWindow.ScrollRow = 22911
+    ActiveWindow.ScrollRow = 23001
+    ActiveWindow.ScrollRow = 23181
+    ActiveWindow.ScrollRow = 23360
+    ActiveWindow.ScrollRow = 23450
+    ActiveWindow.ScrollRow = 25606
+    ActiveWindow.ScrollRow = 25696
+    ActiveWindow.ScrollRow = 25337
+    ActiveWindow.ScrollRow = 25067
+    ActiveWindow.ScrollRow = 24079
+    ActiveWindow.ScrollRow = 23899
+    ActiveWindow.ScrollRow = 23001
+    ActiveWindow.ScrollRow = 22731
+    ActiveWindow.ScrollRow = 18599
+    ActiveWindow.ScrollRow = 18419
+    ActiveWindow.ScrollRow = 18239
+    ActiveWindow.ScrollRow = 18149
+    ActiveWindow.ScrollRow = 18059
+    ActiveWindow.ScrollRow = 17970
+    ActiveWindow.ScrollRow = 16802
+    ActiveWindow.ScrollRow = 16622
+    ActiveWindow.ScrollRow = 16532
+    ActiveWindow.ScrollRow = 14825
+    ActiveWindow.ScrollRow = 14196
+    ActiveWindow.ScrollRow = 13927
+    ActiveWindow.ScrollRow = 12399
+    ActiveWindow.ScrollRow = 12309
+    ActiveWindow.ScrollRow = 12130
+    ActiveWindow.ScrollRow = 11950
+    ActiveWindow.ScrollRow = 11680
+    ActiveWindow.ScrollRow = 11591
+    ActiveWindow.ScrollRow = 11321
+    ActiveWindow.ScrollRow = 11322
+    ActiveWindow.SmallScroll Down:=18
+    Windows("AB_NYC_26.xltm").Activate
+    ActiveWindow.LargeScroll Down:=1
+    Range("O1967").Select
+    ActiveWindow.ScrollRow = 1560
+    ActiveWindow.ScrollRow = 1114
+    ActiveWindow.ScrollRow = 981
+    ActiveWindow.ScrollRow = 914
+    ActiveWindow.ScrollRow = 669
+    ActiveWindow.ScrollRow = 513
+    ActiveWindow.ScrollRow = 379
+    ActiveWindow.ScrollRow = 223
+    ActiveWindow.ScrollRow = 90
+    ActiveWindow.ScrollRow = 1
+End Sub
